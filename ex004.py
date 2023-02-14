@@ -2,8 +2,7 @@
 #sobre ele.
 n = input('Digite algo:')
 print('\033[35m-=\033[m' * 20)
-print(type(n))
-print('O tipo primitivo desse valor é', n.isalpha())
+print('O tipo primitivo desse valor é', type(n))
 print('É alfa?', n.isalpha())
 print('maiusculas?', n.isupper())
 print('É um alfanumerico?', n.isalnum())
